@@ -7,8 +7,17 @@ html {
   }
 }
 
+.email-tag {
+  font-weight: 500;
+  color:  #082e5e !important;
+}
+
+.text-success {
+  color:  #3d9005 !important;
+}
+
 .text-primary {
-  color:  #082e5e;
+  color:  #082e5e !important;
 }
 
 .container {
@@ -34,7 +43,9 @@ html {
   min-width: 220px;
 }
 
-.border-top { border-top: 1px solid #e5e5e5; }
+.border-top {
+    border-top: 3px solid #3d9005 !important;
+}
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
